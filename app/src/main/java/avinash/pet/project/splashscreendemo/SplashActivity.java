@@ -11,6 +11,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        //you can use a timer to prolong the splash activity
         //start the next activity
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
